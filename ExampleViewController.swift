@@ -18,8 +18,6 @@ class ExampleViewController: UIViewController {
     @IBAction func buttonClicked(sender : UIButton) {
         SVProgressHUD.showSuccessWithStatus("Success !!!")
         TSMessage.showNotificationWithTitle("Success Notification !!!", type: TSMessageNotificationType.Success)
-        
-        //
     }
 
     override func viewDidLoad() {
