@@ -13,6 +13,7 @@
 		D46B046C194DF96000F5EDFE /* CocoapodsWithSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46B046B194DF96000F5EDFE /* CocoapodsWithSwiftTests.swift */; };
 		D46B0477194DF98C00F5EDFE /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46B0475194DF98C00F5EDFE /* ExampleViewController.swift */; };
 		D46B0478194DF98C00F5EDFE /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D46B0476194DF98C00F5EDFE /* ExampleViewController.xib */; };
+		D46B047E194E0F0D00F5EDFE /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = D46B047D194E0F0D00F5EDFE /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		D46B0475194DF98C00F5EDFE /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExampleViewController.swift; path = ../ExampleViewController.swift; sourceTree = "<group>"; };
 		D46B0476194DF98C00F5EDFE /* ExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExampleViewController.xib; path = ../ExampleViewController.xib; sourceTree = "<group>"; };
 		D46B047A194E008200F5EDFE /* CocoapodsWithSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoapodsWithSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		D46B047D194E0F0D00F5EDFE /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		EE00F6ED3A0C4CB7872C92F1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 		D46B045A194DF95F00F5EDFE /* CocoapodsWithSwift */ = {
 			isa = PBXGroup;
 			children = (
+				D46B047D194E0F0D00F5EDFE /* screenshot.png */,
 				D46B0475194DF98C00F5EDFE /* ExampleViewController.swift */,
 				D46B0476194DF98C00F5EDFE /* ExampleViewController.xib */,
 				D46B045D194DF95F00F5EDFE /* AppDelegate.swift */,
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D46B0460194DF95F00F5EDFE /* Images.xcassets in Resources */,
+				D46B047E194E0F0D00F5EDFE /* screenshot.png in Resources */,
 				D46B0478194DF98C00F5EDFE /* ExampleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
