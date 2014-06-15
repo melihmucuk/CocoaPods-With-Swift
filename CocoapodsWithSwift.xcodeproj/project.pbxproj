@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D4C0F7B10484F2C9072AD76 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE00F6ED3A0C4CB7872C92F1 /* libPods.a */; };
 		D46B045E194DF95F00F5EDFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46B045D194DF95F00F5EDFE /* AppDelegate.swift */; };
 		D46B0460194DF95F00F5EDFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D46B045F194DF95F00F5EDFE /* Images.xcassets */; };
 		D46B046C194DF96000F5EDFE /* CocoapodsWithSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46B046B194DF96000F5EDFE /* CocoapodsWithSwiftTests.swift */; };
+		D46B0477194DF98C00F5EDFE /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46B0475194DF98C00F5EDFE /* ExampleViewController.swift */; };
+		D46B0478194DF98C00F5EDFE /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D46B0476194DF98C00F5EDFE /* ExampleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2964D3A655F400F8699874E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		D46B0458194DF95F00F5EDFE /* CocoapodsWithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoapodsWithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46B045C194DF95F00F5EDFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D46B045D194DF95F00F5EDFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +34,10 @@
 		D46B0465194DF96000F5EDFE /* CocoapodsWithSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoapodsWithSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46B046A194DF96000F5EDFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D46B046B194DF96000F5EDFE /* CocoapodsWithSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoapodsWithSwiftTests.swift; sourceTree = "<group>"; };
+		D46B0475194DF98C00F5EDFE /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExampleViewController.swift; path = ../ExampleViewController.swift; sourceTree = "<group>"; };
+		D46B0476194DF98C00F5EDFE /* ExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExampleViewController.xib; path = ../ExampleViewController.xib; sourceTree = "<group>"; };
+		D46B047A194E008200F5EDFE /* CocoapodsWithSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoapodsWithSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		EE00F6ED3A0C4CB7872C92F1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D4C0F7B10484F2C9072AD76 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +59,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE96C036B01A481BA0539720 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE00F6ED3A0C4CB7872C92F1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D46B044F194DF95F00F5EDFE = {
 			isa = PBXGroup;
 			children = (
 				D46B045A194DF95F00F5EDFE /* CocoapodsWithSwift */,
 				D46B0468194DF96000F5EDFE /* CocoapodsWithSwiftTests */,
 				D46B0459194DF95F00F5EDFE /* Products */,
+				A2964D3A655F400F8699874E /* Pods.xcconfig */,
+				CE96C036B01A481BA0539720 /* Frameworks */,
+				D46B047A194E008200F5EDFE /* CocoapodsWithSwift-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +91,8 @@
 		D46B045A194DF95F00F5EDFE /* CocoapodsWithSwift */ = {
 			isa = PBXGroup;
 			children = (
+				D46B0475194DF98C00F5EDFE /* ExampleViewController.swift */,
+				D46B0476194DF98C00F5EDFE /* ExampleViewController.xib */,
 				D46B045D194DF95F00F5EDFE /* AppDelegate.swift */,
 				D46B045F194DF95F00F5EDFE /* Images.xcassets */,
 				D46B045B194DF95F00F5EDFE /* Supporting Files */,
@@ -110,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D46B046F194DF96000F5EDFE /* Build configuration list for PBXNativeTarget "CocoapodsWithSwift" */;
 			buildPhases = (
+				12ACC30B5CF44DB0B683DAAF /* Check Pods Manifest.lock */,
 				D46B0454194DF95F00F5EDFE /* Sources */,
 				D46B0455194DF95F00F5EDFE /* Frameworks */,
 				D46B0456194DF95F00F5EDFE /* Resources */,
+				F98F1B5DF065488289684A5C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D46B0460194DF95F00F5EDFE /* Images.xcassets in Resources */,
+				D46B0478194DF98C00F5EDFE /* ExampleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,12 +220,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12ACC30B5CF44DB0B683DAAF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F98F1B5DF065488289684A5C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D46B0454194DF95F00F5EDFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D46B045E194DF95F00F5EDFE /* AppDelegate.swift in Sources */,
+				D46B0477194DF98C00F5EDFE /* ExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,23 +361,30 @@
 		};
 		D46B0470194DF96000F5EDFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2964D3A655F400F8699874E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CocoapodsWithSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CocoapodsWithSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		D46B0471194DF96000F5EDFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2964D3A655F400F8699874E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CocoapodsWithSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CocoapodsWithSwift-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -377,6 +443,7 @@
 				D46B0471194DF96000F5EDFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D46B0472194DF96000F5EDFE /* Build configuration list for PBXNativeTarget "CocoapodsWithSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -385,6 +452,7 @@
 				D46B0474194DF96000F5EDFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

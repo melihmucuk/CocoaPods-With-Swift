@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
                             
@@ -18,6 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         // Override point for customization after application launch.
         self.window!.backgroundColor = UIColor.whiteColor()
+        
+        let vc = ExampleViewController ( nibName:"ExampleViewController", bundle: nil)
+        self.window!.rootViewController = vc
+
         self.window!.makeKeyAndVisible()
         return true
     }
